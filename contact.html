@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Contact</title>
+
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      p {
+        font-size: 20px;
+        font-family: Lato;
+      }
+         /* Modify brand and text color */ 
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text { 
+    color: orangered; 
+} 
+.nav-item .nav-link,
+.navbar-toggler .navbar-toggler-icon
+.navbarSupportedContent{
+    color:lightgrey
+}
+]
+
+    </style>
+
+<script>
+    $(document).ready(function(){
+        $("submit").toast('show');
+    });
+    </script>
+  </head>
+
+  <body>
+    <!-- Start Nav -->
+    <nav class="navbar navbar-expand-lg navbar-custom bg-dark">
+  <span class="navbar-brand mb-1 h1">Gunnar</span>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="nav navbar-nav navbar-right">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- End Nav -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="page-header">
+        <h1>Contact</h1>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input
+              type="email"
+              class="form-control form-control-lg"
+              id="InputEmail"
+              aria-describedby="emailHelp"
+              placeholder="Email">
+        
+            <small id="emailHelp" class="form-text text-muted"
+              >We'll never share your email with anyone else.</small
+            >
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Information</label>
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              id="exampleInputPassword1"
+              placeholder="What can I help you with?">
+            
+          </div>
+          
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+
+
+
+          
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
